@@ -57,7 +57,7 @@ int main()
 		if (mytracker[count]->newRestaurant() == 0)
 			count++;
 
-		cout << "Another one? (Y = yes and N = no)" << endl;
+		cout << "Another new Restaurant? (Y = yes and N = no)" << endl;
 		cin >> response;
 	}
 
